@@ -1,4 +1,4 @@
-# Telegraf-Start-Parts !https://travis-ci.org/TiagoDanin/Telegraf-Start-Parts.svg?branch=master!:https://travis-ci.org/TiagoDanin/Telegraf-Start-Parts
+# Telegraf-Start-Parts [![Build Status](https://travis-ci.org/TiagoDanin/Telegraf-Start-Parts.svg?branch=master)](https://travis-ci.org/TiagoDanin/Telegraf-Start-Parts)
 
 Command /start parameters parser middleware for Telegraf
 
