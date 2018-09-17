@@ -1,0 +1,25 @@
+{
+  "name": "telegraf-start-parts",
+  "version": "1.0.0",
+  "description": "Command /start parameters parser middleware for Telegraf",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiagoDanin/Telegraf-Start-Parts.git"
+  },
+  "keywords": [
+    "telegraf",
+    "middleware",
+    "telegram",
+    "command"
+  ],
+  "author": "Tiago Danin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TiagoDanin/Telegraf-Start-Parts/issues"
+  },
+  "homepage": "https://github.com/TiagoDanin/Telegraf-Start-Parts#readme"
+}
