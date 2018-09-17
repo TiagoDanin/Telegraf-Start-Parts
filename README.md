@@ -24,9 +24,11 @@ bot.use((ctx, next) => telegrafStart(ctx, next))
 ### Example
 
 Input: `/start help` or `https://telegram.me/youbot?start=help`
+
 Output: `/help`
 
 Input: `/start help-bot` or `https://telegram.me/youbot?start=help-bot`
+
 Output: `/help bot`
 
 ## Dependencies
