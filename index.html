@@ -81,8 +81,28 @@ baseURL: https://tiagodanin.github.io
 
 
 <div class="uk-container">
-	<h1 id="telegraf-start-parts"><a href="#telegraf-start-parts">Telegraf-Start-Parts</a></h1>
+	<h1 id="telegraf-start-parts-httpstravis-ciorgtiagodanintelegraf-start-partssvgbranchmasterhttpstravis-ciorgtiagodanintelegraf-start-parts"><a href="#telegraf-start-parts-httpstravis-ciorgtiagodanintelegraf-start-partssvgbranchmasterhttpstravis-ciorgtiagodanintelegraf-start-parts">Telegraf-Start-Parts !<a href="https://travis-ci.org/TiagoDanin/Telegraf-Start-Parts.svg?branch=master!:https://travis-ci.org/TiagoDanin/Telegraf-Start-Parts">https://travis-ci.org/TiagoDanin/Telegraf-Start-Parts.svg?branch=master!:https://travis-ci.org/TiagoDanin/Telegraf-Start-Parts</a></a></h1>
 <p>Command /start parameters parser middleware for Telegraf</p>
+<h2 id="installation"><a href="#installation">Installation</a></h2>
+<p>This is a <a href="https://nodejs.org/">Node.js</a> module available through the
+<a href="https://www.npmjs.com/">npm registry</a>. It can be installed using the
+<a href="https://docs.npmjs.com/getting-started/installing-npm-packages-locally"><code>npm</code></a> command line tools.</p>
+<pre><code class="hljs language-sh">npm install telegraf-start-parts --save</code></pre>
+<h2 id="usage"><a href="#usage">Usage</a></h2>
+<h3 id="code"><a href="#code">Code</a></h3>
+<pre><code class="hljs language-javascript"><span class="hljs-keyword">const</span> telegrafStart = <span class="hljs-built_in">require</span>(<span class="hljs-string">'telegraf-start-parts'</span>)
+bot.use(<span class="hljs-function">(<span class="hljs-params">ctx, next</span>) =></span> telegrafStart(ctx, next))</code></pre>
+<h3 id="example"><a href="#example">Example</a></h3>
+<p>Input: <code>/start help</code> or <code>https://telegram.me/youbot?start=help</code>
+Output: <code>/help</code></p>
+<p>Input: <code>/start help-bot</code> or <code>https://telegram.me/youbot?start=help-bot</code>
+Output: <code>/help bot</code></p>
+<h2 id="dependencies"><a href="#dependencies">Dependencies</a></h2>
+<p>None</p>
+<h2 id="dev-dependencies"><a href="#dev-dependencies">Dev Dependencies</a></h2>
+<p>None</p>
+<h2 id="license"><a href="#license">License</a></h2>
+<p>MIT</p>
 
 
 	<hr class="uk-margin-top-remove uk-divider-icon">
